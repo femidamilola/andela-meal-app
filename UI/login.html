@@ -14,6 +14,8 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
     align-content: center;
+     border-radius: 60px;
+    text-decoration: none;
 }
 
 button {
@@ -24,6 +26,7 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+    border-radius: 60px;
 }
 
 button:hover {
@@ -68,6 +71,10 @@ span.psw {
   }
     
 }
+    button a{
+        text-decoration-line: none;
+        color: #fff;
+    }
 </style>
 </head>
 <body>
@@ -86,7 +93,7 @@ span.psw {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
         
-    <button type="submit" class="loginbtn">Login</button>
+    <button type="submit" class="loginbtn"><a href="useraccount.html" style="font-size: 30px ">Login</a></button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
@@ -94,7 +101,7 @@ span.psw {
 
   <div class="container">
     <button type="button" class="cancelbtn" style="color: white">cancel</button>
-    <span class="psw">Forgot <a href="#" style="color: #fff">password?</a></span>
+    <span class="psw"> <a href="#" style="color: #fff">Forgot password?</a></span>
      
   </div>
   
