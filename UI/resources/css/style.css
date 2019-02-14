@@ -16,6 +16,21 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+
+
+.meal-photo span{
+    position:  absolute;
+    opacity: 0;
+    top : 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+        
+}
+.meal-photo:hover span{
+    opacity: 1
+}
+
 .clearfix {zoom: 1}
 .clearfix:after {
     content: ('.');
@@ -250,6 +265,7 @@ header{
     margin: 0;
     overflow: hidden;
     background-color: #000;
+    position: relative
 }
 .meal-photo img{
     opacity: 0.7;
